@@ -1,0 +1,157 @@
+/*
+*
+* @author Marcelo Miguel Pires Lopes
+*
+*/
+
+/* ============================= layout ================================== */
+html, body{
+	height: 100%;
+}
+
+
+body{
+	background: linear-gradient(to top, rgba(0, 0, 0, 1) ,rgba(0, 0, 0, 0.8)) fixed;
+	font-family: Arial;
+}
+
+
+/* -- Barra de navegação -- */
+.img-logo{
+	height: 40px;
+	width: 132px;
+	display: block;
+	background-image:  url('imagens/spotify.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	color : transparent;
+}
+
+nav.navbar-transparent{
+ 	padding: 15px 0px;
+ 	background: rgba(0, 0, 0, 0.6);
+ 	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background-color: white;
+	margin: 15px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer .nav a{
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
+	color: lightgreen;
+	background: none;
+}
+
+/* -- Imagem de capa -- */
+.capa{
+	width: 100%;
+	text-align: center;
+}
+
+.texto-capa{
+	text-align: center;
+	color: white;
+	margin-top: 200px;
+}
+
+/* -- Botões -- */
+
+.btn-1, .btn-2{
+	border-radius: 30px;
+	margin: 10px 15px;
+	font-weight: 600;
+	border: 2px solid transparent;
+}
+
+.btn-1:hover{
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	transition: 0.5s;	
+}
+
+.btn-2:hover{
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+	transition: 0.5s;
+}
+
+/* -- Sessão servicos -- */
+#servicos{
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.albuns{
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+/* -- Conteúdos -- */
+#recursos{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.rotacionar{
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	padding-left: 100px;
+}
+
+/* -- Rodapé -- */
+footer{
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+
+}
+
+.item-rede-social{
+	float: right;
+}
+
+/* ============================== Típografia =============================== */
+h1{
+	font-size: 100px;
+	font-weight: 900px;
+}
+
+h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+#recursos h3{
+	color: #9bf0e1;
+}
+
+#rodape h4{
+	color: #919496;
+	font-size: 12px;
+	text-transform: uppercase;
+}
